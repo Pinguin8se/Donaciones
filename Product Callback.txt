@@ -1,0 +1,29 @@
+         _=[[
+
+	Receipt: {
+		["CurrentlySpent"] = 0,
+		["CurrencyType"] = Enum.CurrencyType,
+		["PlaceIdWherePurchased"] = 0,
+		["PlayerId"] = 0,
+		["ProductId"] = 0,
+		["PurchaseId"] = 0,
+	}
+
+
+	[ ID HERE ] = function(receipt) <-- Fill in "ID HERE" with your Developer Product ID
+	
+	------------------------------------------------------------------------------------------
+	
+	You can't have multiple process receipts within one experience, therefore we've created these automated process receipt branches!
+]]
+
+return {
+	
+	["ProcessReceipt"] = function(receipt) --> Triggers for all IDs 
+		
+	end,
+	
+	[0] = function(receipt) --> Number indicates specific ID
+		
+	end,
+}
